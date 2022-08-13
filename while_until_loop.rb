@@ -4,8 +4,8 @@
 #   print i
 # end
 
-j = 3
-until j == 0 do
+j = 1
+until j > 50 do
   print j
-  j -= 1
+  j += 1
 end

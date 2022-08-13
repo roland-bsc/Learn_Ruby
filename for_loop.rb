@@ -23,3 +23,14 @@ end
 # for num in 1...20
 #     puts num
 # end
+
+# for k in 1..50
+#     print k
+#   end
+
+# m = 0
+# loop do
+#   m += 1
+#   print "Ruby!"
+#   break if m == 30
+# end
