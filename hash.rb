@@ -17,3 +17,9 @@ my_hash = { "name" => "Eric",
 # puts pets["Stevie"]
 # puts pets["George"]
 # puts pets["Roman"]
+
+## Anotehr way
+# my_hash = {
+#     "mom" => "Osing",
+#     "dad" => "Eddie"
+#   }
