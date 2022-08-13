@@ -13,3 +13,7 @@ my_hash = { "name" => "Eric",
 # pets["Stevie"] = "cat"
 # pets["George"] = "dog"
 # pets["Roman"] = "eel"
+
+# puts pets["Stevie"]
+# puts pets["George"]
+# puts pets["Roman"]
