@@ -49,6 +49,7 @@ cubertino(8) #calling cubertino method
 
 # hat = greeter("Coy")
 
+#It’s a Ruby best practice to end method names that produce boolean values with a question mark.
 # def by_three?(number)
 #   if number % 3 == 0
 #       return true
