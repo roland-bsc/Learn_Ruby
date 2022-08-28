@@ -10,5 +10,8 @@ puts books
 
 puts "===Now let's sort it backwards==="
 # Sort your books in descending order, in-place below
+# methods with ! are generally known as dangerous methods 
+# because the method will literally change the object
+# It's a sign that says "Danger, Will Robinson!"'
 books.sort! {|x,y| -(x <=> y)}
 puts books

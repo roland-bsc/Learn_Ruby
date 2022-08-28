@@ -21,3 +21,8 @@ using a block to define the task you want the method (like .each) to do simplifi
 # This block prints the number 5 for each item.
 # (It chooses to ignore the passed item, which is allowed.)
 [1, 2, 3, 4, 5].each { |i| puts i * 5 }
+
+puts "Now let's square the num!"
+my_array = [1, 2, 3, 4, 5]
+
+my_array.each { |num| puts num*num}
