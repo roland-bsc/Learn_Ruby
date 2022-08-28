@@ -13,5 +13,14 @@ puts "===Now let's sort it backwards==="
 # methods with ! are generally known as dangerous methods 
 # because the method will literally change the object
 # It's a sign that says "Danger, Will Robinson!"'
+# https://stackoverflow.com/questions/612189/why-are-exclamation-marks-used-in-ruby-methods/612653#612653
 books.sort! {|x,y| -(x <=> y)}
 puts books
+
+# Another example of sorting in descending order
+# Pay attention to the NEGATION of spaceship (<=>) comparison
+# fruits = ["orange", "apple", "banana", "pear", "grapes"]
+
+# fruits.sort! { |firstFruit, secondFruit| -(firstFruit <=> secondFruit) }
+
+# puts fruits
