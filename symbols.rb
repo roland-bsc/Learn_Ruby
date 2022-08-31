@@ -52,3 +52,20 @@ print symbols
 #   good_movies = movie_ratings.select { |movie, rating| rating > 3 }
   
 #   puts good_movies
+
+# Ruby can iterate through hash sysmbols with just keys or value
+# the mathods used are "each_key" and "each_value"
+# See example below
+# movie_ratings = {
+#     memento: 3,
+#     primer: 3.5,
+#     the_matrix: 3,
+#     truman_show: 4,
+#     red_dawn: 1.5,
+#     skyfall: 4,
+#     alex_cross: 2,
+#     uhf: 1,
+#     lion_king: 3.5
+#   }
+#   # Add your code below!
+#   movie_ratings.each_key { |k| puts k }
